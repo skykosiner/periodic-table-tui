@@ -30,76 +30,52 @@ type element struct {
 }
 
 type model struct {
-	elements []element        // items on the to-do list
-	cursor   int              // which to-do list item our cursor is pointing at
-	selected map[int]struct{} // which to-do items are selected
+	elements []element
+	cursor   int
+	selected map[int]struct{}
+
+	table []string
 }
 
 func InitialModel() model {
-	// Get each element from json file
-	// Open our jsonFile
 	jsonFile, err := os.Open("elements.json")
-	// if we os.Open returns an error then handle it
 	if err != nil {
 		fmt.Println(err)
 	}
 
-	// defer the closing of our jsonFile so that we can parse it later on
 	defer jsonFile.Close()
 
-	// read our opened jsonFile as a byte array.
 	byteValue, _ := ioutil.ReadAll(jsonFile)
 
-	// we initialize our Users array
 	var el []element
 
-	// we unmarshal our byteArray which contains our
-	// jsonFile's content into 'users' which we defined above
 	json.Unmarshal(byteValue, &el)
 
 	return model{
-		// Our shopping list is a grocery list
-		elements: el[0:2],
+		elements: el[0:3],
 
-		// A map which indicates which choices are selected. We're using
-		// the  map like a mathematical set. The keys refer to the indexes
-		// of the `choices` slice, above.
 		selected: make(map[int]struct{}),
 	}
 }
 
 func (m model) Init() tea.Cmd {
-	// Just return `nil`, which means "no I/O right now, please."
 	return nil
 }
 
 func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	switch msg := msg.(type) {
-
-	// Is it a key press?
 	case tea.KeyMsg:
-
-		// Cool, what was the actual key pressed?
 		switch msg.String() {
-
-		// These keys should exit the program.
 		case "ctrl+c", "q":
 			return m, tea.Quit
-
-		// The "up" and "k" keys move the cursor up
 		case "up", "k":
 			if m.cursor > 0 {
 				m.cursor--
 			}
-
-		// The "down" and "j" keys move the cursor down
 		case "down", "j":
 			if m.cursor < len(m.elements)-1 {
 				m.cursor++
 			}
-
-		// The "enter" key and the spacebar (a literal space) toggle
-		// the selected state for the item that the cursor is pointing at.
 		case "enter", " ":
 			_, ok := m.selected[m.cursor]
 			if ok {
@@ -110,39 +86,93 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		}
 	}
 
-	// Return the updated model to the Bubble Tea runtime for processing.
-	// Note that we're not returning a command.
 	return m, nil
 }
 
 func (m model) View() string {
-	// The header
 	var s string
-
-	// Iterate over our choices
 	for i, choice := range m.elements {
 		var sideInfo element
 		if m.cursor == i {
 			sideInfo = choice
 		}
 
-		// Render the row
-		jsonStr, err := json.Marshal(sideInfo)
+		jsonStr, err := json.MarshalIndent(sideInfo, "", "  ")
 
 		if err != nil {
 			panic("There was an error changing the info to a json string")
 		}
 
 		if m.cursor != i {
-			s += fmt.Sprintf("%s\n", choice.Symbol)
+			for _, element := range m.elements {
+				if element.Symbol != sideInfo.Symbol {
+					s += m.GenrateSymbol(element.Symbol)
+				}
+			}
+
 		} else {
-			s += fmt.Sprintf("%s\t\t\t\t\t%s\n", choice.Symbol, jsonStr)
+			s += fmt.Sprintf("%s\n%s\n", m.GenrateSymbol(sideInfo.Symbol), jsonStr)
 		}
 	}
 
-	// The footer
 	s += "\nPress q to quit.\n"
-
-	// Send the UI for rendering
 	return s
+}
+
+func (m *model) GenrateSymbol(symbol string) string {
+	// groups := []int{1, 2, 3, 4, 5, 6, 7, 0}
+
+	/*
+	   Each element should look like this:
+	   ╭─╮
+	   │H│
+	   ╰─╯
+	*/
+
+	var finalString string
+	for y := 0; y < len(symbol); y++ {
+		for x := 0; x < len(symbol); x++ {
+			if y != 0 && x == 0 {
+				finalString += "╭"
+			}
+
+			if y == 1 && x != 1 {
+				finalString += "─"
+			}
+
+			if y == 1 && x != 1 {
+				finalString += "─"
+			}
+
+			if y == 1 && x != 1 {
+				finalString += "╮"
+			}
+
+			if y == len(symbol)-1 && x != len(symbol)-1 {
+				finalString += "\n│"
+			}
+
+			if y == 1 && x != 1 {
+				finalString += fmt.Sprintf("%s│", symbol)
+			}
+
+			if y != 0 && x == 0 {
+				finalString += "\n╰"
+			}
+
+			if y == 1 && x != 1 {
+				finalString += "─"
+			}
+
+			if y == 1 && x != 1 {
+				finalString += "─"
+			}
+
+			if y == 1 && x != 1 {
+				finalString += "╯\n"
+			}
+		}
+	}
+
+	return finalString
 }
