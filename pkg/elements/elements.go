@@ -127,8 +127,17 @@ func (m model) View() string {
 		}
 
 		// Render the row
-		// EWWWWWWWW
-		s += fmt.Sprintf("%s\n \t\t\t\t\tNames: %s\n\t\t\t\t\tValence: %s\n\t\t\t\t\tNuetrons: %d\n\t\t\t\t\tProtons: %d\n\t\t\t\t\tState: %s\n\t\t\t\t\tRadioactivity: %s\n\t\t\t\t\tRadius: %s\n\t\t\t\t\tElectronegativity: %s\n\t\t\t\t\tDensity: %s\n\t\t\t\t\tMelting: %s\n\t\t\t\t\tBoiling: %s\n\t\t\t\t\tDiscoverer: %s\n\t\t\t\t\tYear: %s\n\t\t\t\t\tSpecific_heat: %s\n\t\t\t\t\tFirst_ionization: %s\n", choice.Symbol, sideInfo.Names, sideInfo.Valence, sideInfo.Neutrons, sideInfo.Protons, sideInfo.State, sideInfo.Radioactivity, sideInfo.Radius, sideInfo.Electronegativity, sideInfo.Density, sideInfo.Melting, sideInfo.Boiling, sideInfo.Discoverer, sideInfo.Year, sideInfo.Specific_heat, sideInfo.First_ionization)
+		jsonStr, err := json.Marshal(sideInfo)
+
+		if err != nil {
+			panic("There was an error changing the info to a json string")
+		}
+
+		if m.cursor != i {
+			s += fmt.Sprintf("%s\n", choice.Symbol)
+		} else {
+			s += fmt.Sprintf("%s\t\t\t\t\t%s\n", choice.Symbol, jsonStr)
+		}
 	}
 
 	// The footer
