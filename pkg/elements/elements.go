@@ -7,6 +7,7 @@ import (
 	"os"
 
 	tea "github.com/charmbracelet/bubbletea"
+	"github.com/yonikosiner/perodic-table-tui/pkg/utils"
 )
 
 type element struct {
@@ -34,7 +35,11 @@ type model struct {
 	cursor   int
 	selected map[int]struct{}
 
-	table []string
+	table table
+}
+
+type table struct {
+	row []element
 }
 
 func InitialModel() model {
@@ -52,7 +57,7 @@ func InitialModel() model {
 	json.Unmarshal(byteValue, &el)
 
 	return model{
-		elements: el[0:3],
+		elements: el[0:5],
 
 		selected: make(map[int]struct{}),
 	}
@@ -90,8 +95,8 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 }
 
 func (m model) View() string {
-	var s string
-	for i, choice := range m.elements {
+	s := "  1   2                             3   4   5   6   7   0"
+	/*for i, choice := range m.elements {
 		var sideInfo element
 		if m.cursor == i {
 			sideInfo = choice
@@ -113,20 +118,36 @@ func (m model) View() string {
 		} else {
 			s += fmt.Sprintf("%s\n%s\n", m.GenrateSymbol(sideInfo.Symbol), jsonStr)
 		}
-	}
+	}*/
+
+	m.GenrateTable()
 
 	s += "\nPress q to quit.\n"
 	return s
 }
 
-func (m *model) GenrateSymbol(symbol string) string {
-	// groups := []int{1, 2, 3, 4, 5, 6, 7, 0}
+func (m *model) GenrateTable() /* []table  */ {
+	var elementsDone []string
+	/* groups := []int{1, 2, 3, 4, 5, 6, 7, 0}
+	tableWidth := 18 */
 
+	for _, element := range m.elements {
+		if utils.StrInArray(elementsDone, element.Symbol) {
+			return
+		}
+
+		elementsDone = append(elementsDone, element.Symbol)
+
+		fmt.Println(m.GenrateSymbol(element.Symbol))
+	}
+}
+
+func (m *model) GenrateSymbol(symbol string) string {
 	/*
 	   Each element should look like this:
-	   ╭─╮
-	   │H│
-	   ╰─╯
+	   ╭──╮
+	   │H │
+	   ╰──╯
 	*/
 
 	var finalString string
@@ -169,7 +190,7 @@ func (m *model) GenrateSymbol(symbol string) string {
 			}
 
 			if y == 1 && x != 1 {
-				finalString += "╯\n"
+				finalString += "╯"
 			}
 		}
 	}

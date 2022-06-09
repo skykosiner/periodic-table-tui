@@ -1,6 +1,6 @@
 [
     {
-        "symbol": "H",
+        "symbol": "H ",
         "coordinates": [
             3,
             3
@@ -100,7 +100,7 @@
         "first_ionization": "9.3227"
     },
     {
-        "symbol": "B",
+        "symbol": "B ",
         "coordinates": [
             6,
             51
@@ -125,7 +125,7 @@
         "first_ionization": "8.298"
     },
     {
-        "symbol": "C",
+        "symbol": "C ",
         "coordinates": [
             6,
             55
@@ -150,7 +150,7 @@
         "first_ionization": "11.2603"
     },
     {
-        "symbol": "N",
+        "symbol": "N ",
         "coordinates": [
             6,
             59
@@ -175,7 +175,7 @@
         "first_ionization": "14.5341"
     },
     {
-        "symbol": "O",
+        "symbol": "O ",
         "coordinates": [
             6,
             63
@@ -200,7 +200,7 @@
         "first_ionization": "13.6181"
     },
     {
-        "symbol": "F",
+        "symbol": "F ",
         "coordinates": [
             6,
             67
@@ -353,7 +353,7 @@
         "first_ionization": "8.1517"
     },
     {
-        "symbol": "P",
+        "symbol": "P ",
         "coordinates": [
             9,
             59
@@ -378,7 +378,7 @@
         "first_ionization": "10.4867"
     },
     {
-        "symbol": "S",
+        "symbol": "S ",
         "coordinates": [
             9,
             63
@@ -453,7 +453,7 @@
         "first_ionization": "15.7596"
     },
     {
-        "symbol": "K",
+        "symbol": "K ",
         "coordinates": [
             12,
             3
@@ -554,7 +554,7 @@
         "first_ionization": "6.8281"
     },
     {
-        "symbol": "V",
+        "symbol": "V ",
         "coordinates": [
             12,
             19
@@ -954,7 +954,7 @@
         "first_ionization": "5.6949"
     },
     {
-        "symbol": "Y",
+        "symbol": "Y ",
         "coordinates": [
             15,
             11
@@ -1304,7 +1304,7 @@
         "first_ionization": "9.0096"
     },
     {
-        "symbol": "I",
+        "symbol": "I ",
         "coordinates": [
             15,
             67
@@ -1829,7 +1829,7 @@
         "first_ionization": "7.5496"
     },
     {
-        "symbol": "W",
+        "symbol": "W ",
         "coordinates": [
             18,
             23
@@ -2281,7 +2281,7 @@
         "first_ionization": "5.89"
     },
     {
-        "symbol": "U",
+        "symbol": "U ",
         "coordinates": [
             29,
             24
