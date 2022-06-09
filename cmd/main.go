@@ -4,21 +4,43 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/charmbracelet/bubbles/list"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/yonikosiner/perodic-table-tui/pkg/elements"
 )
 
-/*
-I don't think I can do this with buble tea? I need to be able to have seperate
-rows with elements, and these rows have different hights.
+type item string
 
-TODO: Look at lipgloss by charm to get the styles I want
-*/
+type model struct {
+	list     list.Model
+	items    []item
+	choice   string
+	quitting bool
+}
 
 func main() {
-	p := tea.NewProgram(elements.InitialModel(), tea.WithAltScreen())
-	if err := p.Start(); err != nil {
-		fmt.Printf("Alas, there's been an error: %v", err)
+	elementss := elements.GetElementStr()
+
+	var elmentArr []list.Item
+
+	for i := 0; i < len(elementss); i++ {
+		elmentArr = append(elmentArr, elements.Item(elementss[i]))
+	}
+
+	const defaultWidth = 20
+	l := list.New(elmentArr, elements.ItemDelaget{}, defaultWidth, elements.ListHeight)
+
+	l.Title = "Perdoic Table TUI"
+	l.SetShowStatusBar(false)
+	l.SetFilteringEnabled(true)
+	l.Styles.Title = elements.TitleStyle
+	l.Styles.PaginationStyle = elements.PaginationStyle
+	l.Styles.HelpStyle = elements.HelpStyle
+
+	m := elements.Model{List: l}
+
+	if err := tea.NewProgram(m).Start(); err != nil {
+		fmt.Println("Error running program:", err)
 		os.Exit(1)
 	}
 }

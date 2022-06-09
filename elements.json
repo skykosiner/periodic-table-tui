@@ -1,10 +1,6 @@
 [
     {
         "symbol": "H ",
-        "coordinates": [
-            3,
-            3
-        ],
         "names": [
             "Hydrogen"
         ],
@@ -26,10 +22,6 @@
     },
     {
         "symbol": "He",
-        "coordinates": [
-            3,
-            71
-        ],
         "names": [
             "Helium"
         ],
@@ -51,10 +43,6 @@
     },
     {
         "symbol": "Li",
-        "coordinates": [
-            6,
-            3
-        ],
         "names": [
             "Lithium"
         ],
@@ -76,10 +64,6 @@
     },
     {
         "symbol": "Be",
-        "coordinates": [
-            6,
-            7
-        ],
         "names": [
             "Beryllium"
         ],
@@ -101,10 +85,6 @@
     },
     {
         "symbol": "B ",
-        "coordinates": [
-            6,
-            51
-        ],
         "names": [
             "Boron"
         ],
@@ -126,10 +106,6 @@
     },
     {
         "symbol": "C ",
-        "coordinates": [
-            6,
-            55
-        ],
         "names": [
             "Carbon"
         ],
@@ -151,10 +127,6 @@
     },
     {
         "symbol": "N ",
-        "coordinates": [
-            6,
-            59
-        ],
         "names": [
             "Nitrogen"
         ],
@@ -176,10 +148,6 @@
     },
     {
         "symbol": "O ",
-        "coordinates": [
-            6,
-            63
-        ],
         "names": [
             "Oxygen"
         ],
@@ -201,10 +169,6 @@
     },
     {
         "symbol": "F ",
-        "coordinates": [
-            6,
-            67
-        ],
         "names": [
             "Fluorine"
         ],
@@ -226,10 +190,6 @@
     },
     {
         "symbol": "Ne",
-        "coordinates": [
-            6,
-            71
-        ],
         "names": [
             "Neon"
         ],
@@ -251,10 +211,6 @@
     },
     {
         "symbol": "Na",
-        "coordinates": [
-            9,
-            3
-        ],
         "names": [
             "Sodium",
             "Natrium"
@@ -277,10 +233,6 @@
     },
     {
         "symbol": "Mg",
-        "coordinates": [
-            9,
-            7
-        ],
         "names": [
             "Magnesium"
         ],
@@ -302,10 +254,6 @@
     },
     {
         "symbol": "Al",
-        "coordinates": [
-            9,
-            51
-        ],
         "names": [
             "Aluminum",
             "Aluminium"
@@ -328,10 +276,6 @@
     },
     {
         "symbol": "Si",
-        "coordinates": [
-            9,
-            55
-        ],
         "names": [
             "Silicon",
             "Silicium"
@@ -354,10 +298,6 @@
     },
     {
         "symbol": "P ",
-        "coordinates": [
-            9,
-            59
-        ],
         "names": [
             "Phosphorus"
         ],
@@ -379,10 +319,6 @@
     },
     {
         "symbol": "S ",
-        "coordinates": [
-            9,
-            63
-        ],
         "names": [
             "Sulfur"
         ],
@@ -404,10 +340,6 @@
     },
     {
         "symbol": "Cl",
-        "coordinates": [
-            9,
-            67
-        ],
         "names": [
             "Chlorine"
         ],
@@ -429,10 +361,6 @@
     },
     {
         "symbol": "Ar",
-        "coordinates": [
-            9,
-            71
-        ],
         "names": [
             "Argon"
         ],
@@ -454,10 +382,6 @@
     },
     {
         "symbol": "K ",
-        "coordinates": [
-            12,
-            3
-        ],
         "names": [
             "Potassium",
             "Kalium"
@@ -480,10 +404,6 @@
     },
     {
         "symbol": "Ca",
-        "coordinates": [
-            12,
-            7
-        ],
         "names": [
             "Calcium"
         ],
@@ -505,10 +425,6 @@
     },
     {
         "symbol": "Sc",
-        "coordinates": [
-            12,
-            11
-        ],
         "names": [
             "Scandium"
         ],
@@ -530,10 +446,6 @@
     },
     {
         "symbol": "Ti",
-        "coordinates": [
-            12,
-            15
-        ],
         "names": [
             "Titanium"
         ],
@@ -555,10 +467,6 @@
     },
     {
         "symbol": "V ",
-        "coordinates": [
-            12,
-            19
-        ],
         "names": [
             "Vanadium"
         ],
@@ -580,10 +488,6 @@
     },
     {
         "symbol": "Cr",
-        "coordinates": [
-            12,
-            23
-        ],
         "names": [
             "Chromium"
         ],
@@ -605,10 +509,6 @@
     },
     {
         "symbol": "Mn",
-        "coordinates": [
-            12,
-            27
-        ],
         "names": [
             "Manganese"
         ],
@@ -630,10 +530,6 @@
     },
     {
         "symbol": "Fe",
-        "coordinates": [
-            12,
-            31
-        ],
         "names": [
             "Iron"
         ],
@@ -655,10 +551,6 @@
     },
     {
         "symbol": "Co",
-        "coordinates": [
-            12,
-            35
-        ],
         "names": [
             "Cobalt"
         ],
@@ -680,10 +572,6 @@
     },
     {
         "symbol": "Ni",
-        "coordinates": [
-            12,
-            39
-        ],
         "names": [
             "Nickel"
         ],
@@ -705,10 +593,6 @@
     },
     {
         "symbol": "Cu",
-        "coordinates": [
-            12,
-            43
-        ],
         "names": [
             "Copper"
         ],
@@ -730,10 +614,6 @@
     },
     {
         "symbol": "Zn",
-        "coordinates": [
-            12,
-            47
-        ],
         "names": [
             "Zinc"
         ],
@@ -755,10 +635,6 @@
     },
     {
         "symbol": "Ga",
-        "coordinates": [
-            12,
-            51
-        ],
         "names": [
             "Gallium"
         ],
@@ -780,10 +656,6 @@
     },
     {
         "symbol": "Ge",
-        "coordinates": [
-            12,
-            55
-        ],
         "names": [
             "Germanium"
         ],
@@ -805,10 +677,6 @@
     },
     {
         "symbol": "As",
-        "coordinates": [
-            12,
-            59
-        ],
         "names": [
             "Arsenic"
         ],
@@ -830,10 +698,6 @@
     },
     {
         "symbol": "Se",
-        "coordinates": [
-            12,
-            63
-        ],
         "names": [
             "Selenium"
         ],
@@ -855,10 +719,6 @@
     },
     {
         "symbol": "Br",
-        "coordinates": [
-            12,
-            67
-        ],
         "names": [
             "Bromine"
         ],
@@ -880,10 +740,6 @@
     },
     {
         "symbol": "Kr",
-        "coordinates": [
-            12,
-            71
-        ],
         "names": [
             "Krypton"
         ],
@@ -905,10 +761,6 @@
     },
     {
         "symbol": "Rb",
-        "coordinates": [
-            15,
-            3
-        ],
         "names": [
             "Rubidium"
         ],
@@ -930,10 +782,6 @@
     },
     {
         "symbol": "Sr",
-        "coordinates": [
-            15,
-            7
-        ],
         "names": [
             "Strontium"
         ],
@@ -955,10 +803,6 @@
     },
     {
         "symbol": "Y ",
-        "coordinates": [
-            15,
-            11
-        ],
         "names": [
             "Yttrium"
         ],
@@ -980,10 +824,6 @@
     },
     {
         "symbol": "Zr",
-        "coordinates": [
-            15,
-            15
-        ],
         "names": [
             "Zirconium"
         ],
@@ -1005,10 +845,6 @@
     },
     {
         "symbol": "Nb",
-        "coordinates": [
-            15,
-            19
-        ],
         "names": [
             "Niobium"
         ],
@@ -1030,10 +866,6 @@
     },
     {
         "symbol": "Mo",
-        "coordinates": [
-            15,
-            23
-        ],
         "names": [
             "Molybdenum"
         ],
@@ -1055,10 +887,6 @@
     },
     {
         "symbol": "Tc",
-        "coordinates": [
-            15,
-            27
-        ],
         "names": [
             "Technetium"
         ],
@@ -1080,10 +908,6 @@
     },
     {
         "symbol": "Ru",
-        "coordinates": [
-            15,
-            31
-        ],
         "names": [
             "Ruthenium"
         ],
@@ -1105,10 +929,6 @@
     },
     {
         "symbol": "Rh",
-        "coordinates": [
-            15,
-            35
-        ],
         "names": [
             "Rhodium"
         ],
@@ -1130,10 +950,6 @@
     },
     {
         "symbol": "Pd",
-        "coordinates": [
-            15,
-            39
-        ],
         "names": [
             "Palladium"
         ],
@@ -1155,10 +971,6 @@
     },
     {
         "symbol": "Ag",
-        "coordinates": [
-            15,
-            43
-        ],
         "names": [
             "Silver"
         ],
@@ -1180,10 +992,6 @@
     },
     {
         "symbol": "Cd",
-        "coordinates": [
-            15,
-            47
-        ],
         "names": [
             "Cadmium"
         ],
@@ -1205,10 +1013,6 @@
     },
     {
         "symbol": "In",
-        "coordinates": [
-            15,
-            51
-        ],
         "names": [
             "Indium"
         ],
@@ -1230,10 +1034,6 @@
     },
     {
         "symbol": "Sn",
-        "coordinates": [
-            15,
-            55
-        ],
         "names": [
             "Tin"
         ],
@@ -1255,10 +1055,6 @@
     },
     {
         "symbol": "Sb",
-        "coordinates": [
-            15,
-            59
-        ],
         "names": [
             "Antimony"
         ],
@@ -1280,10 +1076,6 @@
     },
     {
         "symbol": "Te",
-        "coordinates": [
-            15,
-            63
-        ],
         "names": [
             "Tellurium"
         ],
@@ -1305,10 +1097,6 @@
     },
     {
         "symbol": "I ",
-        "coordinates": [
-            15,
-            67
-        ],
         "names": [
             "Iodine"
         ],
@@ -1330,10 +1118,6 @@
     },
     {
         "symbol": "Xe",
-        "coordinates": [
-            15,
-            71
-        ],
         "names": [
             "Xenon"
         ],
@@ -1355,10 +1139,6 @@
     },
     {
         "symbol": "Cs",
-        "coordinates": [
-            18,
-            3
-        ],
         "names": [
             "Cesium"
         ],
@@ -1380,10 +1160,6 @@
     },
     {
         "symbol": "Ba",
-        "coordinates": [
-            18,
-            7
-        ],
         "names": [
             "Barium"
         ],
@@ -1405,10 +1181,6 @@
     },
     {
         "symbol": "La",
-        "coordinates": [
-            26,
-            12
-        ],
         "names": [
             "Lanthanum"
         ],
@@ -1430,10 +1202,6 @@
     },
     {
         "symbol": "Ce",
-        "coordinates": [
-            26,
-            16
-        ],
         "names": [
             "Cerium"
         ],
@@ -1455,10 +1223,6 @@
     },
     {
         "symbol": "Pr",
-        "coordinates": [
-            26,
-            20
-        ],
         "names": [
             "Praseodymium"
         ],
@@ -1480,10 +1244,6 @@
     },
     {
         "symbol": "Nd",
-        "coordinates": [
-            26,
-            24
-        ],
         "names": [
             "Neodymium"
         ],
@@ -1505,10 +1265,6 @@
     },
     {
         "symbol": "Pm",
-        "coordinates": [
-            26,
-            28
-        ],
         "names": [
             "Promethium"
         ],
@@ -1530,10 +1286,6 @@
     },
     {
         "symbol": "Sm",
-        "coordinates": [
-            26,
-            32
-        ],
         "names": [
             "Samarium"
         ],
@@ -1555,10 +1307,6 @@
     },
     {
         "symbol": "Eu",
-        "coordinates": [
-            26,
-            36
-        ],
         "names": [
             "Europium"
         ],
@@ -1580,10 +1328,6 @@
     },
     {
         "symbol": "Gd",
-        "coordinates": [
-            26,
-            40
-        ],
         "names": [
             "Gadolinium"
         ],
@@ -1605,10 +1349,6 @@
     },
     {
         "symbol": "Tb",
-        "coordinates": [
-            26,
-            44
-        ],
         "names": [
             "Terbium"
         ],
@@ -1630,10 +1370,6 @@
     },
     {
         "symbol": "Dy",
-        "coordinates": [
-            26,
-            48
-        ],
         "names": [
             "Dysprosium"
         ],
@@ -1655,10 +1391,6 @@
     },
     {
         "symbol": "Ho",
-        "coordinates": [
-            26,
-            52
-        ],
         "names": [
             "Holmium"
         ],
@@ -1680,10 +1412,6 @@
     },
     {
         "symbol": "Er",
-        "coordinates": [
-            26,
-            56
-        ],
         "names": [
             "Erbium"
         ],
@@ -1705,10 +1433,6 @@
     },
     {
         "symbol": "Tm",
-        "coordinates": [
-            26,
-            60
-        ],
         "names": [
             "Thulium"
         ],
@@ -1730,10 +1454,6 @@
     },
     {
         "symbol": "Yb",
-        "coordinates": [
-            26,
-            64
-        ],
         "names": [
             "Ytterbium"
         ],
@@ -1755,10 +1475,6 @@
     },
     {
         "symbol": "Lu",
-        "coordinates": [
-            26,
-            68
-        ],
         "names": [
             "Lutetium"
         ],
@@ -1780,10 +1496,6 @@
     },
     {
         "symbol": "Hf",
-        "coordinates": [
-            18,
-            15
-        ],
         "names": [
             "Hafnium"
         ],
@@ -1805,10 +1517,6 @@
     },
     {
         "symbol": "Ta",
-        "coordinates": [
-            18,
-            19
-        ],
         "names": [
             "Tantalum"
         ],
@@ -1830,10 +1538,6 @@
     },
     {
         "symbol": "W ",
-        "coordinates": [
-            18,
-            23
-        ],
         "names": [
             "Tungsten",
             "Wolfram"
@@ -1856,10 +1560,6 @@
     },
     {
         "symbol": "Re",
-        "coordinates": [
-            18,
-            27
-        ],
         "names": [
             "Rhenium"
         ],
@@ -1881,10 +1581,6 @@
     },
     {
         "symbol": "Os",
-        "coordinates": [
-            18,
-            31
-        ],
         "names": [
             "Osmium"
         ],
@@ -1906,10 +1602,6 @@
     },
     {
         "symbol": "Ir",
-        "coordinates": [
-            18,
-            35
-        ],
         "names": [
             "Iridium"
         ],
@@ -1931,10 +1623,6 @@
     },
     {
         "symbol": "Pt",
-        "coordinates": [
-            18,
-            39
-        ],
         "names": [
             "Platinum"
         ],
@@ -1956,10 +1644,6 @@
     },
     {
         "symbol": "Au",
-        "coordinates": [
-            18,
-            43
-        ],
         "names": [
             "Gold"
         ],
@@ -1981,10 +1665,6 @@
     },
     {
         "symbol": "Hg",
-        "coordinates": [
-            18,
-            47
-        ],
         "names": [
             "Mercury",
             "Quicksilver"
@@ -2007,10 +1687,6 @@
     },
     {
         "symbol": "Tl",
-        "coordinates": [
-            18,
-            51
-        ],
         "names": [
             "Thallium"
         ],
@@ -2032,10 +1708,6 @@
     },
     {
         "symbol": "Pb",
-        "coordinates": [
-            18,
-            55
-        ],
         "names": [
             "Lead"
         ],
@@ -2057,10 +1729,6 @@
     },
     {
         "symbol": "Bi",
-        "coordinates": [
-            18,
-            59
-        ],
         "names": [
             "Bismuth"
         ],
@@ -2082,10 +1750,6 @@
     },
     {
         "symbol": "Po",
-        "coordinates": [
-            18,
-            63
-        ],
         "names": [
             "Polonium"
         ],
@@ -2107,10 +1771,6 @@
     },
     {
         "symbol": "At",
-        "coordinates": [
-            18,
-            67
-        ],
         "names": [
             "Astatine"
         ],
@@ -2132,10 +1792,6 @@
     },
     {
         "symbol": "Rn",
-        "coordinates": [
-            18,
-            71
-        ],
         "names": [
             "Radon"
         ],
@@ -2157,10 +1813,6 @@
     },
     {
         "symbol": "Fr",
-        "coordinates": [
-            21,
-            3
-        ],
         "names": [
             "Francium"
         ],
@@ -2182,10 +1834,6 @@
     },
     {
         "symbol": "Ra",
-        "coordinates": [
-            21,
-            7
-        ],
         "names": [
             "Radium"
         ],
@@ -2207,10 +1855,6 @@
     },
     {
         "symbol": "Ac",
-        "coordinates": [
-            29,
-            12
-        ],
         "names": [
             "Actinium"
         ],
@@ -2232,10 +1876,6 @@
     },
     {
         "symbol": "Th",
-        "coordinates": [
-            29,
-            16
-        ],
         "names": [
             "Thorium"
         ],
@@ -2257,10 +1897,6 @@
     },
     {
         "symbol": "Pa",
-        "coordinates": [
-            29,
-            20
-        ],
         "names": [
             "Protactinium"
         ],
@@ -2282,10 +1918,6 @@
     },
     {
         "symbol": "U ",
-        "coordinates": [
-            29,
-            24
-        ],
         "names": [
             "Uranium"
         ],
@@ -2307,10 +1939,6 @@
     },
     {
         "symbol": "Np",
-        "coordinates": [
-            29,
-            28
-        ],
         "names": [
             "Neptunium"
         ],
@@ -2332,10 +1960,6 @@
     },
     {
         "symbol": "Pu",
-        "coordinates": [
-            29,
-            32
-        ],
         "names": [
             "Plutonium"
         ],
@@ -2357,10 +1981,6 @@
     },
     {
         "symbol": "Am",
-        "coordinates": [
-            29,
-            36
-        ],
         "names": [
             "Americium"
         ],
@@ -2382,10 +2002,6 @@
     },
     {
         "symbol": "Cm",
-        "coordinates": [
-            29,
-            40
-        ],
         "names": [
             "Curium"
         ],
@@ -2407,10 +2023,6 @@
     },
     {
         "symbol": "Bk",
-        "coordinates": [
-            29,
-            44
-        ],
         "names": [
             "Berkelium"
         ],
@@ -2432,10 +2044,6 @@
     },
     {
         "symbol": "Cf",
-        "coordinates": [
-            29,
-            48
-        ],
         "names": [
             "Californium"
         ],
@@ -2457,10 +2065,6 @@
     },
     {
         "symbol": "Es",
-        "coordinates": [
-            29,
-            52
-        ],
         "names": [
             "Einsteinium"
         ],
@@ -2482,10 +2086,6 @@
     },
     {
         "symbol": "Fm",
-        "coordinates": [
-            29,
-            56
-        ],
         "names": [
             "Fermium"
         ],
@@ -2507,10 +2107,6 @@
     },
     {
         "symbol": "Md",
-        "coordinates": [
-            29,
-            60
-        ],
         "names": [
             "Mendelevium",
             "Mendeleevium"
@@ -2533,10 +2129,6 @@
     },
     {
         "symbol": "No",
-        "coordinates": [
-            29,
-            64
-        ],
         "names": [
             "Nobelium"
         ],
@@ -2558,10 +2150,6 @@
     },
     {
         "symbol": "Lr",
-        "coordinates": [
-            29,
-            68
-        ],
         "names": [
             "Lawrencium"
         ],
@@ -2583,10 +2171,6 @@
     },
     {
         "symbol": "Rf",
-        "coordinates": [
-            21,
-            15
-        ],
         "names": [
             "Rutherfordium"
         ],
@@ -2608,10 +2192,6 @@
     },
     {
         "symbol": "Db",
-        "coordinates": [
-            21,
-            19
-        ],
         "names": [
             "Dubnium"
         ],
@@ -2633,10 +2213,6 @@
     },
     {
         "symbol": "Sg",
-        "coordinates": [
-            21,
-            23
-        ],
         "names": [
             "Seaborgium"
         ],
@@ -2658,10 +2234,6 @@
     },
     {
         "symbol": "Bh",
-        "coordinates": [
-            21,
-            27
-        ],
         "names": [
             "Bohrium"
         ],
@@ -2683,10 +2255,6 @@
     },
     {
         "symbol": "Hs",
-        "coordinates": [
-            21,
-            31
-        ],
         "names": [
             "Hassium"
         ],
@@ -2708,10 +2276,6 @@
     },
     {
         "symbol": "Mt",
-        "coordinates": [
-            21,
-            35
-        ],
         "names": [
             "Meitnerium"
         ],
@@ -2733,10 +2297,6 @@
     },
     {
         "symbol": "Ds",
-        "coordinates": [
-            21,
-            39
-        ],
         "names": [
             "Darmstadtium"
         ],
@@ -2758,10 +2318,6 @@
     },
     {
         "symbol": "Rg",
-        "coordinates": [
-            21,
-            43
-        ],
         "names": [
             "Roentgenium"
         ],
@@ -2783,10 +2339,6 @@
     },
     {
         "symbol": "Cn",
-        "coordinates": [
-            21,
-            47
-        ],
         "names": [
             "Copernicium"
         ],
@@ -2808,10 +2360,6 @@
     },
     {
         "symbol": "Nh",
-        "coordinates": [
-            21,
-            51
-        ],
         "names": [
             "Nihonium"
         ],
@@ -2833,10 +2381,6 @@
     },
     {
         "symbol": "Fl",
-        "coordinates": [
-            21,
-            55
-        ],
         "names": [
             "Flerovium"
         ],
@@ -2858,10 +2402,6 @@
     },
     {
         "symbol": "Mc",
-        "coordinates": [
-            21,
-            59
-        ],
         "names": [
             "Moscovium"
         ],
@@ -2883,10 +2423,6 @@
     },
     {
         "symbol": "Lv",
-        "coordinates": [
-            21,
-            63
-        ],
         "names": [
             "Livermorium"
         ],
@@ -2908,10 +2444,6 @@
     },
     {
         "symbol": "Ts",
-        "coordinates": [
-            21,
-            67
-        ],
         "names": [
             "Tennessine"
         ],
@@ -2933,10 +2465,6 @@
     },
     {
         "symbol": "Og",
-        "coordinates": [
-            21,
-            71
-        ],
         "names": [
             "Oganesson"
         ],
