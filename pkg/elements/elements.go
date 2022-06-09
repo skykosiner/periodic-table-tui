@@ -44,7 +44,8 @@ var (
 )
 
 func (i Item) FilterValue() string {
-	return string(i)
+	name := GetElementbySymbol(string(i)).Names[0]
+	return name
 }
 
 type ItemDelaget struct{}

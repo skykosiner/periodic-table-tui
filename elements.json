@@ -1,6 +1,6 @@
 [
     {
-        "symbol": "H ",
+        "symbol": "H",
         "names": [
             "Hydrogen"
         ],
@@ -84,7 +84,7 @@
         "first_ionization": "9.3227"
     },
     {
-        "symbol": "B ",
+        "symbol": "B",
         "names": [
             "Boron"
         ],
@@ -105,7 +105,7 @@
         "first_ionization": "8.298"
     },
     {
-        "symbol": "C ",
+        "symbol": "C",
         "names": [
             "Carbon"
         ],
@@ -126,7 +126,7 @@
         "first_ionization": "11.2603"
     },
     {
-        "symbol": "N ",
+        "symbol": "N",
         "names": [
             "Nitrogen"
         ],
@@ -147,7 +147,7 @@
         "first_ionization": "14.5341"
     },
     {
-        "symbol": "O ",
+        "symbol": "O",
         "names": [
             "Oxygen"
         ],
@@ -168,7 +168,7 @@
         "first_ionization": "13.6181"
     },
     {
-        "symbol": "F ",
+        "symbol": "F",
         "names": [
             "Fluorine"
         ],
@@ -297,7 +297,7 @@
         "first_ionization": "8.1517"
     },
     {
-        "symbol": "P ",
+        "symbol": "P",
         "names": [
             "Phosphorus"
         ],
@@ -318,7 +318,7 @@
         "first_ionization": "10.4867"
     },
     {
-        "symbol": "S ",
+        "symbol": "S",
         "names": [
             "Sulfur"
         ],
@@ -381,7 +381,7 @@
         "first_ionization": "15.7596"
     },
     {
-        "symbol": "K ",
+        "symbol": "K",
         "names": [
             "Potassium",
             "Kalium"
@@ -466,7 +466,7 @@
         "first_ionization": "6.8281"
     },
     {
-        "symbol": "V ",
+        "symbol": "V",
         "names": [
             "Vanadium"
         ],
@@ -802,7 +802,7 @@
         "first_ionization": "5.6949"
     },
     {
-        "symbol": "Y ",
+        "symbol": "Y",
         "names": [
             "Yttrium"
         ],
@@ -1096,7 +1096,7 @@
         "first_ionization": "9.0096"
     },
     {
-        "symbol": "I ",
+        "symbol": "I",
         "names": [
             "Iodine"
         ],
@@ -1537,7 +1537,7 @@
         "first_ionization": "7.5496"
     },
     {
-        "symbol": "W ",
+        "symbol": "W",
         "names": [
             "Tungsten",
             "Wolfram"
@@ -1917,7 +1917,7 @@
         "first_ionization": "5.89"
     },
     {
-        "symbol": "U ",
+        "symbol": "U",
         "names": [
             "Uranium"
         ],
