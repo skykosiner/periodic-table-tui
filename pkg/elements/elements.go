@@ -9,7 +9,6 @@ import (
 	"os"
 
 	"github.com/charmbracelet/bubbles/list"
-	"github.com/charmbracelet/bubbles/textinput"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
 )
@@ -44,7 +43,9 @@ var (
 	QuitTextStyle     = lipgloss.NewStyle().Margin(1, 0, 2, 4)
 )
 
-func (i Item) FilterValue() string { return "" }
+func (i Item) FilterValue() string {
+	return string(i)
+}
 
 type ItemDelaget struct{}
 
@@ -72,11 +73,10 @@ func (d ItemDelaget) Render(w io.Writer, m list.Model, index int, listItem list.
 type Item string
 
 type Model struct {
-	List      list.Model
-	TextInput textinput.Model
-	Elements  []Item
-	Choice    string
-	Quitting  bool
+	List     list.Model
+	Elements []Item
+	Choice   string
+	Quitting bool
 }
 
 func (m Model) Init() tea.Cmd {
@@ -90,17 +90,15 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		return m, nil
 
 	case tea.KeyMsg:
+		// Don't match any of the keys below if we're actively filtering.
+		if m.List.FilterState() == list.Filtering {
+			break
+		}
+
 		switch keypress := msg.String(); keypress {
 		case "ctrl+c", "q":
 			m.Quitting = true
 			return m, tea.Quit
-		case "ctrl+f":
-			textInput := textinput.New()
-			textInput.Placeholder = "Search elements: "
-			textInput.Focus()
-			textInput.CharLimit = 156
-			textInput.Width = 20
-			m.TextInput = textInput
 		case "enter":
 			i, ok := m.List.SelectedItem().(Item)
 			if ok {
@@ -131,8 +129,6 @@ func (m Model) View() string {
 	if m.Quitting {
 		return QuitTextStyle.Render("You don't want to look at the elements in the perdoic table?")
 	}
-
-	m.TextInput.View()
 
 	return "\n" + m.List.View()
 }
