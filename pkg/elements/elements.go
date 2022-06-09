@@ -15,6 +15,7 @@ import (
 
 type element struct {
 	Symbol            string   `json:"symbol"`
+	Group             int      `json:"group"`
 	Names             []string `json:"names"`
 	Valence           string   `json:"valence"`
 	Neutrons          int      `json:"neutrons"`
@@ -32,12 +33,12 @@ type element struct {
 	First_ionization  string   `json:"first_ionization"`
 }
 
-const ListHeight = 20
+const ListHeight = 8
 
 var (
 	TitleStyle        = lipgloss.NewStyle().MarginLeft(2)
 	ItemStyle         = lipgloss.NewStyle().PaddingLeft(4)
-	SelectedItemStyle = lipgloss.NewStyle().PaddingLeft(2).Foreground(lipgloss.Color("170"))
+	SelectedItemStyle = lipgloss.NewStyle().PaddingLeft(2).Foreground(lipgloss.Color("#ffffff"))
 	PaginationStyle   = list.DefaultStyles().PaginationStyle.PaddingLeft(4)
 	HelpStyle         = list.DefaultStyles().HelpStyle.PaddingLeft(4).PaddingBottom(1)
 	QuitTextStyle     = lipgloss.NewStyle().Margin(1, 0, 2, 4)
@@ -59,7 +60,15 @@ func (d ItemDelaget) Render(w io.Writer, m list.Model, index int, listItem list.
 		return
 	}
 
-	str := fmt.Sprintf("%d. %s", index+1, i)
+	elmentInfo := GetElementbySymbol(string(i))
+
+	jsonStr, err := json.MarshalIndent(elmentInfo, " ", "   ")
+
+	if err != nil {
+		log.Fatal("There was an error converting the object to a JSON string", err)
+	}
+
+	str := fmt.Sprintf("%d. %s\n%s", index+1, i, string(jsonStr))
 
 	fn := ItemStyle.Render
 	if index == m.Index() {
@@ -76,6 +85,7 @@ type Item string
 type Model struct {
 	List     list.Model
 	Elements []Item
+	SideInfo element
 	Choice   string
 	Quitting bool
 }
@@ -118,7 +128,7 @@ func (m Model) View() string {
 	if m.Choice != "" {
 		element := GetElementbySymbol(m.Choice)
 
-		byte, err := json.MarshalIndent(element, " ", " ")
+		byte, err := json.MarshalIndent(element, " ", "    ")
 
 		if err != nil {
 			log.Fatal("There was an error settitg the element info to a json string", err)

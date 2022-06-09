@@ -4,6 +4,7 @@
         "names": [
             "Hydrogen"
         ],
+        "group": 1,
         "valence": "1",
         "neutrons": 0,
         "protons": 1,
@@ -25,6 +26,7 @@
         "names": [
             "Helium"
         ],
+        "group": 0,
         "valence": "",
         "neutrons": 2,
         "protons": 2,
@@ -46,6 +48,7 @@
         "names": [
             "Lithium"
         ],
+        "group": 1,
         "valence": "1",
         "neutrons": 4,
         "protons": 3,
@@ -67,6 +70,7 @@
         "names": [
             "Beryllium"
         ],
+        "group": 2,
         "valence": "2",
         "neutrons": 5,
         "protons": 4,
@@ -88,6 +92,7 @@
         "names": [
             "Boron"
         ],
+        "group": 3,
         "valence": "3",
         "neutrons": 6,
         "protons": 5,
@@ -109,6 +114,7 @@
         "names": [
             "Carbon"
         ],
+        "group": 4,
         "valence": "4",
         "neutrons": 6,
         "protons": 6,
@@ -130,6 +136,7 @@
         "names": [
             "Nitrogen"
         ],
+        "group": 5,
         "valence": "5",
         "neutrons": 7,
         "protons": 7,
@@ -151,6 +158,7 @@
         "names": [
             "Oxygen"
         ],
+        "group": 6,
         "valence": "6",
         "neutrons": 8,
         "protons": 8,
@@ -172,6 +180,7 @@
         "names": [
             "Fluorine"
         ],
+        "group": 7,
         "valence": "7",
         "neutrons": 10,
         "protons": 9,
@@ -193,6 +202,7 @@
         "names": [
             "Neon"
         ],
+        "group": 0,
         "valence": "8",
         "neutrons": 10,
         "protons": 10,
@@ -215,6 +225,7 @@
             "Sodium",
             "Natrium"
         ],
+        "group": 1,
         "valence": "1",
         "neutrons": 12,
         "protons": 11,
@@ -236,6 +247,7 @@
         "names": [
             "Magnesium"
         ],
+        "group": 2,
         "valence": "2",
         "neutrons": 12,
         "protons": 12,
@@ -258,6 +270,7 @@
             "Aluminum",
             "Aluminium"
         ],
+        "group": 3,
         "valence": "3",
         "neutrons": 14,
         "protons": 13,
@@ -280,6 +293,7 @@
             "Silicon",
             "Silicium"
         ],
+        "group": 4,
         "valence": "4",
         "neutrons": 14,
         "protons": 14,
@@ -301,6 +315,7 @@
         "names": [
             "Phosphorus"
         ],
+        "group": 5,
         "valence": "5",
         "neutrons": 16,
         "protons": 15,
@@ -322,6 +337,7 @@
         "names": [
             "Sulfur"
         ],
+        "group": 6,
         "valence": "6",
         "neutrons": 16,
         "protons": 16,
@@ -343,6 +359,7 @@
         "names": [
             "Chlorine"
         ],
+        "group": 7,
         "valence": "7",
         "neutrons": 18,
         "protons": 17,
@@ -364,6 +381,7 @@
         "names": [
             "Argon"
         ],
+        "group": 8,
         "valence": "8",
         "neutrons": 22,
         "protons": 18,
@@ -386,6 +404,7 @@
             "Potassium",
             "Kalium"
         ],
+        "group": 1,
         "valence": "1",
         "neutrons": 20,
         "protons": 19,
@@ -407,6 +426,7 @@
         "names": [
             "Calcium"
         ],
+        "group": 2,
         "valence": "2",
         "neutrons": 20,
         "protons": 20,
@@ -428,6 +448,7 @@
         "names": [
             "Scandium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 24,
         "protons": 21,
@@ -449,6 +470,7 @@
         "names": [
             "Titanium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 26,
         "protons": 22,
@@ -470,6 +492,7 @@
         "names": [
             "Vanadium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 28,
         "protons": 23,
@@ -491,6 +514,7 @@
         "names": [
             "Chromium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 28,
         "protons": 24,
@@ -512,6 +536,7 @@
         "names": [
             "Manganese"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 30,
         "protons": 25,
@@ -533,6 +558,7 @@
         "names": [
             "Iron"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 30,
         "protons": 26,
@@ -554,6 +580,7 @@
         "names": [
             "Cobalt"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 32,
         "protons": 27,
@@ -575,6 +602,7 @@
         "names": [
             "Nickel"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 31,
         "protons": 28,
@@ -596,6 +624,7 @@
         "names": [
             "Copper"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 35,
         "protons": 29,
@@ -617,6 +646,7 @@
         "names": [
             "Zinc"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 35,
         "protons": 30,
@@ -638,6 +668,7 @@
         "names": [
             "Gallium"
         ],
+        "group": 3,
         "valence": "3",
         "neutrons": 39,
         "protons": 31,
@@ -659,6 +690,7 @@
         "names": [
             "Germanium"
         ],
+        "group": 4,
         "valence": "4",
         "neutrons": 41,
         "protons": 32,
@@ -680,6 +712,7 @@
         "names": [
             "Arsenic"
         ],
+        "group": 5,
         "valence": "5",
         "neutrons": 42,
         "protons": 33,
@@ -701,6 +734,7 @@
         "names": [
             "Selenium"
         ],
+        "group": 6,
         "valence": "6",
         "neutrons": 45,
         "protons": 34,
@@ -722,6 +756,7 @@
         "names": [
             "Bromine"
         ],
+        "group": 7,
         "valence": "7",
         "neutrons": 45,
         "protons": 35,
@@ -743,6 +778,7 @@
         "names": [
             "Krypton"
         ],
+        "group": 8,
         "valence": "8",
         "neutrons": 48,
         "protons": 36,
@@ -764,6 +800,7 @@
         "names": [
             "Rubidium"
         ],
+        "group": 1,
         "valence": "1",
         "neutrons": 48,
         "protons": 37,
@@ -785,6 +822,7 @@
         "names": [
             "Strontium"
         ],
+        "group": 2,
         "valence": "2",
         "neutrons": 50,
         "protons": 38,
@@ -806,6 +844,7 @@
         "names": [
             "Yttrium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 50,
         "protons": 39,
@@ -827,6 +866,7 @@
         "names": [
             "Zirconium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 51,
         "protons": 40,
@@ -848,6 +888,7 @@
         "names": [
             "Niobium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 52,
         "protons": 41,
@@ -869,6 +910,7 @@
         "names": [
             "Molybdenum"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 54,
         "protons": 42,
@@ -890,6 +932,7 @@
         "names": [
             "Technetium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 55,
         "protons": 43,
@@ -911,6 +954,7 @@
         "names": [
             "Ruthenium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 57,
         "protons": 44,
@@ -932,6 +976,7 @@
         "names": [
             "Rhodium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 58,
         "protons": 45,
@@ -953,6 +998,7 @@
         "names": [
             "Palladium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 60,
         "protons": 46,
@@ -974,6 +1020,7 @@
         "names": [
             "Silver"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 61,
         "protons": 47,
@@ -995,6 +1042,7 @@
         "names": [
             "Cadmium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 64,
         "protons": 48,
@@ -1037,6 +1085,7 @@
         "names": [
             "Tin"
         ],
+        "group": 4,
         "valence": "4",
         "neutrons": 69,
         "protons": 50,
@@ -1058,6 +1107,7 @@
         "names": [
             "Antimony"
         ],
+        "group": 5,
         "valence": "5",
         "neutrons": 71,
         "protons": 51,
@@ -1079,6 +1129,7 @@
         "names": [
             "Tellurium"
         ],
+        "group": 6,
         "valence": "6",
         "neutrons": 76,
         "protons": 52,
@@ -1100,6 +1151,7 @@
         "names": [
             "Iodine"
         ],
+        "group": 7,
         "valence": "7",
         "neutrons": 74,
         "protons": 53,
@@ -1121,6 +1173,7 @@
         "names": [
             "Xenon"
         ],
+        "group": 8,
         "valence": "8",
         "neutrons": 77,
         "protons": 54,
@@ -1142,6 +1195,7 @@
         "names": [
             "Cesium"
         ],
+        "group": 1,
         "valence": "1",
         "neutrons": 78,
         "protons": 55,
@@ -1163,6 +1217,7 @@
         "names": [
             "Barium"
         ],
+        "group": 2,
         "valence": "2",
         "neutrons": 81,
         "protons": 56,
@@ -1184,6 +1239,7 @@
         "names": [
             "Lanthanum"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 82,
         "protons": 57,
@@ -1205,6 +1261,7 @@
         "names": [
             "Cerium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 82,
         "protons": 58,
@@ -1226,6 +1283,7 @@
         "names": [
             "Praseodymium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 82,
         "protons": 59,
@@ -1247,6 +1305,7 @@
         "names": [
             "Neodymium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 84,
         "protons": 60,
@@ -1268,6 +1327,7 @@
         "names": [
             "Promethium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 84,
         "protons": 61,
@@ -1289,6 +1349,7 @@
         "names": [
             "Samarium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 88,
         "protons": 62,
@@ -1310,6 +1371,7 @@
         "names": [
             "Europium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 89,
         "protons": 63,
@@ -1331,6 +1393,7 @@
         "names": [
             "Gadolinium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 93,
         "protons": 64,
@@ -1352,6 +1415,7 @@
         "names": [
             "Terbium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 94,
         "protons": 65,
@@ -1373,6 +1437,7 @@
         "names": [
             "Dysprosium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 97,
         "protons": 66,
@@ -1394,6 +1459,7 @@
         "names": [
             "Holmium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 98,
         "protons": 67,
@@ -1415,6 +1481,7 @@
         "names": [
             "Erbium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 99,
         "protons": 68,
@@ -1436,6 +1503,7 @@
         "names": [
             "Thulium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 100,
         "protons": 69,
@@ -1457,6 +1525,7 @@
         "names": [
             "Ytterbium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 103,
         "protons": 70,
@@ -1478,6 +1547,7 @@
         "names": [
             "Lutetium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 104,
         "protons": 71,
@@ -1499,6 +1569,7 @@
         "names": [
             "Hafnium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 106,
         "protons": 72,
@@ -1520,6 +1591,7 @@
         "names": [
             "Tantalum"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 108,
         "protons": 73,
@@ -1542,6 +1614,7 @@
             "Tungsten",
             "Wolfram"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 110,
         "protons": 74,
@@ -1563,6 +1636,7 @@
         "names": [
             "Rhenium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 111,
         "protons": 75,
@@ -1584,6 +1658,7 @@
         "names": [
             "Osmium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 114,
         "protons": 76,
@@ -1605,6 +1680,7 @@
         "names": [
             "Iridium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 115,
         "protons": 77,
@@ -1626,6 +1702,7 @@
         "names": [
             "Platinum"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 117,
         "protons": 78,
@@ -1647,6 +1724,7 @@
         "names": [
             "Gold"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 118,
         "protons": 79,
@@ -1669,6 +1747,7 @@
             "Mercury",
             "Quicksilver"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 121,
         "protons": 80,
@@ -1690,6 +1769,7 @@
         "names": [
             "Thallium"
         ],
+        "group": 3,
         "valence": "3",
         "neutrons": 123,
         "protons": 81,
@@ -1711,6 +1791,7 @@
         "names": [
             "Lead"
         ],
+        "group": 4,
         "valence": "4",
         "neutrons": 125,
         "protons": 82,
@@ -1732,6 +1813,7 @@
         "names": [
             "Bismuth"
         ],
+        "group": 5,
         "valence": "5",
         "neutrons": 126,
         "protons": 83,
@@ -1753,6 +1835,7 @@
         "names": [
             "Polonium"
         ],
+        "group": 6,
         "valence": "6",
         "neutrons": 126,
         "protons": 84,
@@ -1774,6 +1857,7 @@
         "names": [
             "Astatine"
         ],
+        "group": 7,
         "valence": "7",
         "neutrons": 125,
         "protons": 85,
@@ -1795,6 +1879,7 @@
         "names": [
             "Radon"
         ],
+        "group": 8,
         "valence": "8",
         "neutrons": 136,
         "protons": 86,
@@ -1816,6 +1901,7 @@
         "names": [
             "Francium"
         ],
+        "group": 1,
         "valence": "1",
         "neutrons": 136,
         "protons": 87,
@@ -1837,6 +1923,7 @@
         "names": [
             "Radium"
         ],
+        "group": 2,
         "valence": "2",
         "neutrons": 138,
         "protons": 88,
@@ -1858,6 +1945,7 @@
         "names": [
             "Actinium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 138,
         "protons": 89,
@@ -1879,6 +1967,7 @@
         "names": [
             "Thorium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 142,
         "protons": 90,
@@ -1900,6 +1989,7 @@
         "names": [
             "Protactinium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 140,
         "protons": 91,
@@ -1921,6 +2011,7 @@
         "names": [
             "Uranium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 146,
         "protons": 92,
@@ -1942,6 +2033,7 @@
         "names": [
             "Neptunium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 144,
         "protons": 93,
@@ -1963,6 +2055,7 @@
         "names": [
             "Plutonium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 150,
         "protons": 94,
@@ -1984,6 +2077,7 @@
         "names": [
             "Americium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 148,
         "protons": 95,
@@ -2005,6 +2099,7 @@
         "names": [
             "Curium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 151,
         "protons": 96,
@@ -2026,6 +2121,7 @@
         "names": [
             "Berkelium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 150,
         "protons": 97,
@@ -2047,6 +2143,7 @@
         "names": [
             "Californium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 153,
         "protons": 98,
@@ -2068,6 +2165,7 @@
         "names": [
             "Einsteinium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 153,
         "protons": 99,
@@ -2089,6 +2187,7 @@
         "names": [
             "Fermium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 157,
         "protons": 100,
@@ -2111,6 +2210,7 @@
             "Mendelevium",
             "Mendeleevium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 157,
         "protons": 101,
@@ -2132,6 +2232,7 @@
         "names": [
             "Nobelium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 157,
         "protons": 102,
@@ -2153,6 +2254,7 @@
         "names": [
             "Lawrencium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 159,
         "protons": 103,
@@ -2174,6 +2276,7 @@
         "names": [
             "Rutherfordium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 157,
         "protons": 104,
@@ -2195,6 +2298,7 @@
         "names": [
             "Dubnium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 157,
         "protons": 105,
@@ -2216,6 +2320,7 @@
         "names": [
             "Seaborgium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 160,
         "protons": 106,
@@ -2237,6 +2342,7 @@
         "names": [
             "Bohrium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 157,
         "protons": 107,
@@ -2258,6 +2364,7 @@
         "names": [
             "Hassium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 159,
         "protons": 108,
@@ -2279,6 +2386,7 @@
         "names": [
             "Meitnerium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 159,
         "protons": 109,
@@ -2300,6 +2408,7 @@
         "names": [
             "Darmstadtium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 161,
         "protons": 110,
@@ -2321,6 +2430,7 @@
         "names": [
             "Roentgenium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 161,
         "protons": 111,
@@ -2342,6 +2452,7 @@
         "names": [
             "Copernicium"
         ],
+        "group": 69,
         "valence": "",
         "neutrons": 173,
         "protons": 112,
@@ -2363,6 +2474,7 @@
         "names": [
             "Nihonium"
         ],
+        "group": 3,
         "valence": "3",
         "neutrons": 171,
         "protons": 113,
@@ -2384,6 +2496,7 @@
         "names": [
             "Flerovium"
         ],
+        "group": 4,
         "valence": "4",
         "neutrons": 175,
         "protons": 114,
@@ -2405,6 +2518,7 @@
         "names": [
             "Moscovium"
         ],
+        "group": 5,
         "valence": "5",
         "neutrons": 173,
         "protons": 115,
@@ -2426,6 +2540,7 @@
         "names": [
             "Livermorium"
         ],
+        "group": 6,
         "valence": "6",
         "neutrons": 176,
         "protons": 116,
@@ -2447,6 +2562,7 @@
         "names": [
             "Tennessine"
         ],
+        "group": 7,
         "valence": "7",
         "neutrons": 178,
         "protons": 117,
@@ -2468,6 +2584,7 @@
         "names": [
             "Oganesson"
         ],
+        "group": 8,
         "valence": "8",
         "neutrons": 176,
         "protons": 118,

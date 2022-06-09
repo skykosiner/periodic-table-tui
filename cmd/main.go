@@ -27,10 +27,10 @@ func main() {
 		elmentArr = append(elmentArr, elements.Item(elementss[i]))
 	}
 
-	const defaultWidth = 20
+	const defaultWidth = 69
 	l := list.New(elmentArr, elements.ItemDelaget{}, defaultWidth, elements.ListHeight)
 
-	l.Title = "Perdoic Table TUI"
+	l.Title = "Perdoic Table TUI\nKey: Group 69 means it is in the middle of the\ntable where there is no group in the\nedexceul iGCSE periodic table"
 	l.SetShowStatusBar(false)
 	l.SetFilteringEnabled(true)
 	l.Styles.Title = elements.TitleStyle
