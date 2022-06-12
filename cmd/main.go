@@ -9,15 +9,6 @@ import (
 	"github.com/yonikosiner/perodic-table-tui/pkg/elements"
 )
 
-type item string
-
-type model struct {
-	list     list.Model
-	items    []item
-	choice   string
-	quitting bool
-}
-
 func main() {
 	elementss := elements.GetElementStr()
 
